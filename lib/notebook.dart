@@ -1,12 +1,13 @@
 class Notebook {
   String? _name;
-  double? price;
+  double? _price;
 
   set name(String name) => _name = name;
+  set price(double price) => _price = price;
 
   void Notebookinfo() {
     print("Notebook Name: $_name");
-    print('Notebook Price: $price');
+    print('Notebook Price: $_price');
   }
 }
 
